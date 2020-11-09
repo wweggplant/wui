@@ -1,5 +1,5 @@
 <template>
-  <button :class="{checked }" @click="toggle">
+  <button :class="{checked}" @click="toggle">
     <span></span>
   </button>
 </template>
@@ -26,7 +26,7 @@ button{
   height: $h;
   width: $h*2;
   border: none;
-  background: blue;
+  background: grey;
   border-radius: $h/2;
   position: relative;
 }
@@ -38,6 +38,7 @@ span{
   width: $h2;
   background: white;
   border-radius: $h / 2;
+  transition: left 250ms;
 }
 button.checked{
   background: blue;
