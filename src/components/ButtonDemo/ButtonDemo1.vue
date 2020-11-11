@@ -1,3 +1,6 @@
+<demo>
+常规使用
+</demo>
 <template>
   <div>
     <Button>你好</Button>

@@ -90,22 +90,25 @@ $grey: grey;
   &::-moz-focus-inner {
     border: 0;
   }
-  &.w-theme-link {
+  &.w-theme-link,
+  &.w-theme-text{
     border-color: transparent;
     box-shadow: none;
+    background: 0 0;
+  }
+  &.w-theme-link {
     color: $blue;
     &:hover,
     &:focus {
       color: lighten($blue, 10%);
+      background: rgba(0,0,0,.018);
     }
   }
   &.w-theme-text {
-    border-color: transparent;
-    box-shadow: none;
     color: inherit;
     &:hover,
     &:focus {
-      background: darken(white, 5%);
+      background: rgba(0,0,0,.018);
     }
   }
   &.w-size-big {

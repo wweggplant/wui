@@ -1,3 +1,6 @@
+<demo>
+支持显示加载中
+</demo>
 <template>
   <div>
     <Button loading>加载中</Button>

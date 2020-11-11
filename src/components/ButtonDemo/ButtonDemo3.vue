@@ -1,3 +1,6 @@
+<demo>
+支持 type
+</demo>
 <template>
   <div>
     <div>

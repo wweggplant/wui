@@ -1,3 +1,6 @@
+<demo>
+支持 size
+</demo>
 <template>
   <div>
     <div>
