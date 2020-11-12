@@ -1,21 +1,18 @@
 <template>
-  <Tabs v-model:value="activeName" >
-    <Tab title="tab1">tab1的内容</Tab>
-    <Tab title="tab2">tab2的内容</Tab>
-  </Tabs>
+<h1>Tabs 示例</h1>
+<Demo :component="Tabs1Demo" />
 </template>
 
 <script lang="ts">
-import Tabs from '../lib/Tabs/Tabs.vue'
-import Tab from '../lib/Tabs/Tab.vue'
+import Demo from './Demo.vue'
+import Tabs1Demo from './Tabs1.demo.vue'
 export default {
   components: {
-    Tabs,
-    Tab
+    Demo
   },
   setup() {
-    return  {
-      activeName: 'tab1'
+    return {
+      Tabs1Demo
     }
   }
 }
