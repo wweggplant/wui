@@ -1,3 +1,12 @@
 <template>
-  <div>Tabs 示例</div>
+  <Tabs></Tabs>
 </template>
+
+<script lang="ts">
+import Tabs from '../lib/Tabs/Tabs.vue'
+export default {
+  components: {
+    Tabs
+  }
+}
+</script>
